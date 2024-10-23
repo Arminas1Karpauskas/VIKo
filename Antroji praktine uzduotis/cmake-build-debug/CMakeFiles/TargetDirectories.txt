@@ -1,0 +1,3 @@
+C:/Users/armin/OneDrive - Vilniaus kolegija/Documents/Strukturinis programavimas/VIKo/Spalio 3-4 d. užduotys/cmake-build-debug/CMakeFiles/Spalio_3_4_d__uduotys.dir
+C:/Users/armin/OneDrive - Vilniaus kolegija/Documents/Strukturinis programavimas/VIKo/Spalio 3-4 d. užduotys/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/armin/OneDrive - Vilniaus kolegija/Documents/Strukturinis programavimas/VIKo/Spalio 3-4 d. užduotys/cmake-build-debug/CMakeFiles/rebuild_cache.dir
