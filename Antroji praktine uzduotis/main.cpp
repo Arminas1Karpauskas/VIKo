@@ -15,16 +15,6 @@ bool Balse(char raide) {
     return false;
 }
 
-
-int didBendrasDaliklis(int skaicius1, int skaicius2) {
-    while (skaicius2 != 0) { // dalinama iki liekanos 0
-        int laikinas = skaicius2;
-        skaicius2 = skaicius1 % skaicius2;
-        skaicius1 = laikinas;
-    }
-    return skaicius1; // skaičius1 lieka daliklis
-}
-
 // Zaidimas
 void zaidimas() {
     srand(time(0)); // sekla 1970 iki dabar sekundem
@@ -40,7 +30,7 @@ void zaidimas() {
         } else if (spejimas < atsitiktinisSkaicius) {
             cout << "Per mazas!\n";
         } else {
-            cout << "Teisingai! Skaicius buvo " << atsitiktinisSkaicius << endl;
+            cout << "Atspejai! " << atsitiktinisSkaicius << endl;
             break;
         }
     }
@@ -68,12 +58,12 @@ void meniu() {
         // Tikriname ivesti
         cout << "\nPasirinkite veiksma:\n";
         cout << "1. Patikrinti ar raide yra balse\n";
-        cout << "2. Rasti didziausia bendra dalikli\n";
-        cout << "3. Zaidimas 'Atspek skaiciu'\n";
-        cout << "4. FizzBuzz\n";
-        cout << "5. Iseiti is programos\n";
+        cout << "2. Zaidimas 'Atspek skaiciu'\n";
+        cout << "3. FizzBuzz\n";
+        cout << "4. Iseiti is programos\n";
         cout << "Iveskite pasirinkima (nuo 1 iki 5): ";
 
+        // nezinau kodel cia realiai suveike
         if (!(cin >> pasirinkimas)) {  // Jei ivesta ne skaicius
             cout << "ERROR: Ivestis turi buti skaicius nuo 1 iki 5!\n";
             cin.clear();  // Isvalomas pasirinkimas
@@ -94,25 +84,18 @@ void meniu() {
                 }
                 break;
             }
-            case 2: {
-                int skaicius1, skaicius2;
-                cout << "Iveskite du skaicius: ";
-                cin >> skaicius1 >> skaicius2;
-                int rezultatas = didBendrasDaliklis(skaicius1, skaicius2);
-                cout << "Didziausias bendras daliklis: " << rezultatas << endl;
-                break;
-            }
-            case 3:
+
+            case 2:
                 zaidimas();
                 break;
-            case 4: {
+            case 3: {
                 int n;
                 cout << "Iveskite teigiama skaiciu: ";
                 cin >> n;
                 fizzbuzz(n);
                 break;
             }
-            case 5:
+            case 4:
                 cout << "Programa baigia veikti.\n";
                 return;
             default:
