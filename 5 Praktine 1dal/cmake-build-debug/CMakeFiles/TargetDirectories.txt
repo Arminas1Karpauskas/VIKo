@@ -1,0 +1,3 @@
+C:/Users/armin/OneDrive - Vilniaus kolegija/Documents/Strukturinis programavimas/VIKo/untitled15/cmake-build-debug/CMakeFiles/untitled15.dir
+C:/Users/armin/OneDrive - Vilniaus kolegija/Documents/Strukturinis programavimas/VIKo/untitled15/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/armin/OneDrive - Vilniaus kolegija/Documents/Strukturinis programavimas/VIKo/untitled15/cmake-build-debug/CMakeFiles/rebuild_cache.dir
